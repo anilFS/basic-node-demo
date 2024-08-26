@@ -1,0 +1,10 @@
+"use strict";
+const path = require("path");
+// console.log(path);
+console.log(path.sep);
+const filePath = path.join("/folder", "file.txt");
+console.log("File Path " + filePath);
+const baseName = path.basename(filePath);
+console.log("Base Name " + baseName);
+const absPath = path.resolve(__dirname, "folder", "file.txt");
+console.log(absPath);

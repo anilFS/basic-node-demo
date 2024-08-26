@@ -1,0 +1,21 @@
+Package Dependencies Modules -all are same
+
+//info on npm
+
+// npm  --> global command - comes with node
+// npm --version (to verify the npm)
+
+// local dependency --> to use only in the particular project
+// command:  npm i <PackageName>
+
+//Global dependency --> use it in all the projects
+// npm install -g <PackageName>
+//
+// sudo install -g <PackageName> linux
+
+//package.json - manifest file -stores imp. info abt package / project
+//manual approach - create file package.json in the root.. and write everything as needed
+//npm approach1 - command: --> npm init (step by step)
+//npm approach2 - command: --> npm init -y (everything default)
+
+// to publish the package to npm -- the name should be unique
